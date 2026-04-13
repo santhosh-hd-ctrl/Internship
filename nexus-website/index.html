@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus — Build Without Limits</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">Nexus</a>
+      <ul class="nav__links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#pricing" class="btn btn--sm btn--primary">Get started</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#features">Features</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <a href="#pricing" class="btn btn--primary btn--sm" style="width:fit-content">Get started</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+      <div class="hero__grid"></div>
+    </div>
+    <div class="container hero__content">
+      <div class="hero__badge">
+        <span class="badge__dot"></span>
+        Now with AI-powered insights
+      </div>
+      <h1 class="hero__title">
+        Build faster.<br />
+        Scale <span class="hero__title--accent">without limits.</span>
+      </h1>
+      <p class="hero__sub">
+        Nexus gives your team the tools to ship products users love —
+        from prototype to production in record time.
+      </p>
+      <div class="hero__cta">
+        <a href="#pricing" class="btn btn--primary btn--lg">Start for free</a>
+        <a href="#features" class="btn btn--ghost btn--lg">
+          <span class="btn__icon">▶</span> See how it works
+        </a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat-card">
+          <div class="stat-card__num">12k+</div>
+          <div class="stat-card__lbl">Teams worldwide</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__num">99.9%</div>
+          <div class="stat-card__lbl">Uptime SLA</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__num">4.9★</div>
+          <div class="stat-card__lbl">Avg rating</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__num">3.2×</div>
+          <div class="stat-card__lbl">Faster deployment</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Features</span>
+        <h2 class="section__title">Everything you need to move fast</h2>
+        <p class="section__sub">Powerful primitives designed for modern engineering teams who move at startup speed.</p>
+      </div>
+      <div class="features__grid">
+        <div class="feat-card">
+          <div class="feat-card__icon">⚡</div>
+          <h3>Lightning deployment</h3>
+          <p>Push to production in seconds with our zero-config CI/CD pipeline built for modern cloud architectures.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-card__icon">🔒</div>
+          <h3>Enterprise security</h3>
+          <p>SOC 2 Type II certified. End-to-end encryption, RBAC, audit logs, and SSO out of the box.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-card__icon">📊</div>
+          <h3>Real-time analytics</h3>
+          <p>Watch your metrics live. Custom dashboards, alerts, and deep-dive reports at your fingertips.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-card__icon">🔗</div>
+          <h3>200+ integrations</h3>
+          <p>Connect your existing stack in minutes — Slack, GitHub, Jira, Figma, and hundreds more.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-card__icon">🤖</div>
+          <h3>AI co-pilot</h3>
+          <p>Let AI suggest optimizations, catch bugs before they ship, and write your release notes automatically.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-card__icon">🌐</div>
+          <h3>Global edge network</h3>
+          <p>Serve users from 40+ regions with sub-50ms latency anywhere on the planet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Testimonials</span>
+        <h2 class="section__title">Loved by builders everywhere</h2>
+        <p class="section__sub">Don't take our word for it — hear from teams already shipping with Nexus.</p>
+      </div>
+      <div class="testi__grid">
+        <div class="testi-card">
+          <div class="testi-card__stars">★★★★★</div>
+          <blockquote class="testi-card__quote">
+            "Nexus cut our deployment time from 45 minutes to under 3. I don't know how we worked before this."
+          </blockquote>
+          <div class="testi-card__author">
+            <div class="avatar avatar--purple">SR</div>
+            <div>
+              <div class="author__name">Sofia Reyes</div>
+              <div class="author__role">CTO, Helloform</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card testi-card--featured">
+          <div class="testi-card__stars">★★★★★</div>
+          <blockquote class="testi-card__quote">
+            "The AI co-pilot alone is worth the price. It catches things that slip through code review every single time."
+          </blockquote>
+          <div class="testi-card__author">
+            <div class="avatar avatar--teal">MK</div>
+            <div>
+              <div class="author__name">Marcus Kim</div>
+              <div class="author__role">Lead Engineer, Vaultly</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-card__stars">★★★★★</div>
+          <blockquote class="testi-card__quote">
+            "We scaled from 10 to 10,000 users in a month. Nexus never blinked. The reliability is genuinely impressive."
+          </blockquote>
+          <div class="testi-card__author">
+            <div class="avatar avatar--coral">AL</div>
+            <div>
+              <div class="author__name">Aisha Lawson</div>
+              <div class="author__role">Founder, Stacknest</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Pricing</span>
+        <h2 class="section__title">Simple, honest pricing</h2>
+        <p class="section__sub">Start free, scale when you're ready. No hidden fees, ever.</p>
+      </div>
+      <div class="pricing__grid">
+        <!-- Starter -->
+        <div class="price-card">
+          <div class="price-card__plan">Starter</div>
+          <div class="price-card__amount"><sup>$</sup>0<span>/mo</span></div>
+          <div class="price-card__desc">Perfect for side projects and early prototypes.</div>
+          <ul class="price-card__features">
+            <li>Up to 3 projects</li>
+            <li>5 GB storage</li>
+            <li>Community support</li>
+            <li>Basic analytics</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline btn--full">Get started free</a>
+        </div>
+        <!-- Pro (highlighted) -->
+        <div class="price-card price-card--popular">
+          <div class="popular-badge">Most popular</div>
+          <div class="price-card__plan">Pro</div>
+          <div class="price-card__amount"><sup>$</sup>49<span>/mo</span></div>
+          <div class="price-card__desc">For growing teams who need speed and reliability.</div>
+          <ul class="price-card__features">
+            <li>Unlimited projects</li>
+            <li>100 GB storage</li>
+            <li>Priority support</li>
+            <li>Advanced analytics</li>
+            <li>AI co-pilot access</li>
+            <li>Custom domains</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary btn--full">Start Pro trial</a>
+        </div>
+        <!-- Enterprise -->
+        <div class="price-card">
+          <div class="price-card__plan">Enterprise</div>
+          <div class="price-card__amount price-card__amount--custom">Custom</div>
+          <div class="price-card__desc">Tailored for large orgs with security and compliance needs.</div>
+          <ul class="price-card__features">
+            <li>Everything in Pro</li>
+            <li>Unlimited storage</li>
+            <li>Dedicated support</li>
+            <li>SSO &amp; RBAC</li>
+            <li>SLA guarantee</li>
+            <li>On-prem option</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline btn--full">Talk to sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact__wrap">
+        <div class="contact__info">
+          <span class="section__label">Contact</span>
+          <h2 class="section__title">Let's build something great together</h2>
+          <p class="section__sub">Have questions or need a custom plan? Our team responds within one business day.</p>
+          <div class="contact__details">
+            <div class="contact__detail">
+              <div class="contact__icon">✉</div>
+              <span>hello@nexusapp.com</span>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__icon">📞</div>
+              <span>+1 (415) 555-0192</span>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__icon">📍</div>
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First name</label>
+              <input type="text" id="fname" name="fname" placeholder="Sofia" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last name</label>
+              <input type="text" id="lname" name="lname" placeholder="Reyes" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Work email</label>
+            <input type="email" id="email" name="email" placeholder="sofia@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="company">Company size</label>
+            <select id="company" name="company">
+              <option value="">Select size...</option>
+              <option>1–10 employees</option>
+              <option>11–50 employees</option>
+              <option>51–200 employees</option>
+              <option>200+ employees</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us what you're building..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full btn--lg">Send message</button>
+          <p class="form__success" id="formSuccess">✓ Message sent! We'll be in touch soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__logo">Nexus</span>
+          <p>The modern platform for teams who move fast and don't break things.</p>
+          <div class="footer__socials">
+            <a href="#" class="social-btn" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-btn" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-btn" aria-label="GitHub">⌥</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#">Changelog</a>
+          <a href="#">Roadmap</a>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+        </div>
+        <div class="footer__col">
+          <h4>Legal</h4>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Security</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Nexus, Inc. All rights reserved.</p>
+        <p>Built with ♥ for teams who ship.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
